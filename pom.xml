@@ -8,6 +8,7 @@
     <modules>
         <module>java-core</module>
         <module>study-aop</module>
+        <module>design</module>
     </modules>
     <packaging>pom</packaging>
 
