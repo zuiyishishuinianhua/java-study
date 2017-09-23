@@ -23,4 +23,7 @@ public class MyInvocationHandler implements InvocationHandler {
         System.out.println("++++++after " + method.getName() + "++++++");
         return result;
     }
+
+
+
 }
