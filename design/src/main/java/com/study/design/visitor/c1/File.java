@@ -7,12 +7,15 @@ public class File extends Entry {
         this.name = name;
         this.size = size;
     }
+    @Override
     public String getName() {
         return name;
     }
+    @Override
     public int getSize() {
         return size;
     }
+    @Override
     public void accept(Visitor v) {
         v.visit(this);
     }

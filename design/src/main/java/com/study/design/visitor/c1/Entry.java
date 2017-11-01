@@ -11,6 +11,7 @@ public abstract class Entry implements Element {
     public Iterator iterator() throws FileTreatmentException {    // 生成Iterator
         throw new FileTreatmentException();
     }
+    @Override
     public String toString() {                                          // 显示字符串
         return getName() + " (" + getSize() + ")";
     }
