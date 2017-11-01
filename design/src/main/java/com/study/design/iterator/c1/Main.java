@@ -16,7 +16,6 @@ public class Main {
         bookShelf.addBook(b2);
         bookShelf.addBook(b3);
 
-
         Iterator<Book> iterator = bookShelf.iterator();
         while (iterator.hasNext()) {
             System.out.println(iterator.next());
