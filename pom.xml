@@ -9,6 +9,7 @@
         <module>java-core</module>
         <module>study-aop</module>
         <module>design</module>
+        <module>algorithm</module>
     </modules>
     <packaging>pom</packaging>
 
